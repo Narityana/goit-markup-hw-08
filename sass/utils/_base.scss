@@ -75,25 +75,6 @@ padding-bottom: 60px;
     color: var(--blue);
 }
 
-// .header__container,
-// .nav,
-// .nav__list,
-// .auth-nav,
-// .benefits__list,
-// .activity__list,
-// .team__list,
-// .networks,
-// .footer-networks,
-// .clients__list,
-// .footer__contacts,
-// .join,
-// .footer__container,
-// .logo,
-// .logo-footer,
-// .filters {
-//     display: flex;
-// }
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -108,3 +89,31 @@ padding-bottom: 60px;
     margin: -1px;
 }
 
+// .networks {
+
+//     display: flex;
+//     gap: 10px;
+
+//     &__link {
+//         display: flex;
+//         width: 44px;
+//         height: 44px;
+//         border-radius: 50%;
+//         background-color: rgba(255, 255, 255, 0.1);
+//         color: var(--white);
+//         align-items: center;
+//         justify-content: center;
+
+//         &:hover,
+//         &:focus {
+//             background-color: var(--blue);
+//             color: var(--white);
+//             transition: background-color 250ms var(--cubic), color 250ms var(--cubic);
+//         }
+//     }
+
+//     &__icon {
+//         display: flex;
+//         fill: currentColor;
+//     }
+// }

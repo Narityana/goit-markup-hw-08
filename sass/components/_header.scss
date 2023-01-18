@@ -47,8 +47,6 @@
         @media screen and(min-width: 768px) {
             position: relative;
             padding: 32px 0;
-            letter-spacing: 0.02em;
-            font-weight: 500;
             font-size: 14px;
             line-height: 1.71;
 
@@ -107,7 +105,6 @@
         @media screen and(min-width: 768px) {
             display: flex;
             align-items: center;
-            font-weight: 500;
             font-size: 14px;
         }    
     }    
@@ -231,16 +228,18 @@
     height: 100vh;
     background-color: var(--white);
     transform: translateX(100%);
+    transition: transform 500ms ease-in-out;
     @media screen and(min-width:768px) {
         transform: translateX(0);
+        transition: none;
         position: static;
         flex-direction: row;
         align-items: center;
-        width: 100vw;
         height: 80px;
     }
 }
 
 .header__menu-conteiner.is-open {
     transform: translateX(0);
+    
 }
